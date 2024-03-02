@@ -1,0 +1,83 @@
+img {
+  width: 399px;
+  height: 230px;
+  margin-top: 30px;
+  margin-left: px;
+  margin-top: -2px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+body {
+  height: 100vh;
+  background-color: rgba(241, 225, 233, 0.755);
+}
+
+.container {
+  height: 640px;
+  width: 399px;
+  background-color: rgba(252, 161, 161, 0.712);
+  margin-top: 50px;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+svg {
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.container-box {
+  display: flex;
+}
+.timer,
+.ingredients,
+.serving {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+hr {
+  width: 399px;
+  border: rgb(255, 255, 255) solid 3px;
+  margin-top: -10px;
+}
+
+.recipe {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+}
+button {
+  cursor: pointer;
+  border: none;
+  padding: 12px;
+  position: relative;
+  margin-left: 130px;
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: rgb(249, 249, 249);
+  box-shadow: 2px 2px 2px 2px rgb(234, 114, 134);
+}
+button:hover {
+  background-color: rgba(229, 228, 228, 0.924);
+}
+a {
+  text-decoration: none;
+  color: rgb(228, 97, 118) !important;
+}
